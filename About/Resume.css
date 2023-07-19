@@ -1,0 +1,38 @@
+#Resume{
+    padding:10vh 0;
+    text-align: center;
+    min-height:100vh;
+}
+
+#Resume>.container{
+    padding: 10vh 0;
+    text-align: left;
+    width:75vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:10vw;
+}
+
+#Resume>.container ul{
+    position: relative;
+    margin-top: 5vh;
+    padding:0 2vw;
+    border-left:1px solid black;
+}
+
+#Resume>.container ul::before{
+    content: 'O';
+    font-size: 20px;
+    position: absolute;
+    left:-0.5vw;
+    top:-3vh;
+    color: rgb(94, 94, 94);
+}
+
+#Resume>.container ul>li{
+    margin:3vh 0;
+    list-style-type:decimal;
+    color: rgb(54, 54, 54);
+}

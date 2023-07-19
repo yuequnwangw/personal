@@ -1,0 +1,53 @@
+#About{
+    padding:10vh 0;
+    text-align: center;
+    min-height:100vh;
+}
+
+#About>.container{
+    width:80vw;
+    min-height: 100vh;
+    margin-top:10vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+#About>.container>.imgCard{
+    position: relative;
+    top:0; left:-20vw;
+    width:30vw;
+}
+
+#About>.container>.imgCard>img{
+    transition: 1.2s;
+    position: absolute;
+    top:0;
+    width:30vw;
+    height: auto;
+    object-fit: contain;
+}
+
+#About>.container>.intro{
+    margin-top: 10vh;
+    font-size: 18px;
+    text-align: left;
+}
+
+#About>.container>.intro>.card{
+    width: 40vw;
+    min-height: 30vh;
+    display: grid;
+    grid-template-columns: 30vw 20vw;
+    grid-template-rows: 3vh 3vh 3vh;
+    row-gap: 5vh;
+}
+
+#About>.container>.intro>span{
+    font-size: 15px;
+    color: rgb(21, 21, 21);
+}
+
+#About>.container>.intro>span>b{
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+}

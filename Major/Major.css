@@ -1,0 +1,28 @@
+#Major{
+    padding:10vh 0;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#Major>div{
+    padding:10vh 0;
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+#Major>div>video{
+    width:45vw;
+    height: auto;
+    object-fit: cover;
+}
+
+#Major>div>.content{
+    text-align: left;
+    width:40vw;
+    min-height:30vh
+}
+
+#Major>div>.content>li{
+    margin:5vh 0;
+}

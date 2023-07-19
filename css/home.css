@@ -1,0 +1,31 @@
+#Home{
+    min-height:70vh;
+}
+
+.container{
+    width: 100vw;
+    position: relative;
+    left:0;right: 0;top:0;
+}
+
+.container>img{
+    width: 100vw;
+    object-fit: cover;
+}
+
+.text-content{
+    text-align: center;
+    width:45vw;
+    position:absolute;
+    left:0;right: 0;top:35vh;
+    margin:  0 auto;
+}
+
+.text-content p{
+    margin-top: 2vh;
+    color: rgb(223, 223, 223);
+}
+
+.text-content>.home-button{
+    margin-top: 5vh;
+}
